@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form__group{
+    display: flex;
+    gap: 20px;
+}
+.form__group label{
+    width: 50%;
+}
+label p{
+    margin: 10px 0;
+}
+.form__group label:last-child{
+    align-self: flex-start;
+}
+#date{
+    width: 20%;
+}
+.button{
+    margin-top: 10px;
+    align-self: flex-start;
+    background: transparent;
+}
+.form__radio label{
+    display: flex;
+    align-items: center;
+}
+#radio{
+    width: 50px;
+}

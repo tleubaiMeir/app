@@ -1,0 +1,27 @@
+.posts{
+    margin-top: 50px;
+}
+.post{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.post p{
+    padding: 10px 0;
+}
+.post__date{
+    font-size: 12px;
+    opacity: .3;
+}
+.post__button{
+    background: darkred;
+    color: white;
+    border: 1px solid black;
+}
+.title{
+    color: black;
+    text-align: center;
+}
